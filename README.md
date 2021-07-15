@@ -8,6 +8,10 @@
 
 ---
 
+To see a preview of CIFilterBox in action, visit https://vimeo.com/575570855
+
+---
+
 If you have ever used CIFilters in your code, you will know they can be difficult and time-consuming to implement. The filters are powerful and versatile, but the documentation can be sparse and opaque. Finding out what a specific filter does and how to control it can take hours of reading, coding, and experimentation.
 
 With CIFilterBox it takes a few clicks.
