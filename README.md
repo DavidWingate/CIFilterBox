@@ -4,11 +4,9 @@
 
 ![ReadingBar Icon](https://github.com/DavidWingate/CIFilterBox/raw/main/icon_128x128.png)
 
-**See the Core Image Filters working in real-time. Tweak their settings and see instant results. Accomplish in a few clicks what might have taken hours in code.**
+See the Core Image Filters working in real-time. Tweak their settings and see instant results. Accomplish in a few clicks what might have taken hours in code.
 
----
-
-To see a preview of CIFilterBox in action, visit https://vimeo.com/575570855
+https://www.davidwingate.dev/cifilterbox
 
 ---
 
