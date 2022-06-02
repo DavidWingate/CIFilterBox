@@ -14,25 +14,17 @@ If you have ever used CIFilters in your code, you will know they can be difficul
 
 With CIFilterBox it takes a few clicks.
 
-- Choose from 219 built-in CIFilters
+- Choose from 228 built-in CIFilters
 - Easily change the filter settings using simple controls
 - See the output image updated in real-time
 - Get a code snippet of the current filter and settings
 
 CIFilterBox has a simple and intuitive interface. Quickly find your filter and start playing with the settings. The output image will update in real-time, showing what the filter does and how the settings work. You can use your own input images or choose from the built-in stock photos. Select a background to show the transparent areas of the output, and either crop the image extent or view the full un-cropped output. You can even use the output image as an input to simulate filter chaining.
 
-- Use simple controls for the major input key classes, including:
-  - NSNumber
-  - NSAffineTransform
-  - CIColor
-  - CIVector
-  - NSString
-  - NSAttributedString
-  - NSData
-  - NSObject
+- Use simple controls for the major input key classes, including: NSNumber; NSAffineTransform; CIColor; CIVector; NSString; NSAttributedString
 - Use your own input images or choose from the built-in stock photos
 - Arrange the images in a customisable grid
-- View information on each input key including: Class, Type, and Description
+- View information on each input key including Class, Type, and Description
 - Receive warnings for common filter problems such as 'image of infinite extent'
 - Set a custom output extent for filters with no input image
 
@@ -43,8 +35,8 @@ Once you have the output you need you can copy a code snippet to the clipboard f
 - Crop the image extent, or view the full un-cropped output
 - Zoom to fit within the window, or use a scroll view at full resolution
 - Select a background to show the transparent areas of the output
-  - Select from Grid, Black, White, Window (Clear), or Image
-  - Use your own image, the input image, or one of the built-in stock photos
+- Select from Grid, Black, White, Window (Clear), or Image
+- Use your own image, the input image, or one of the built-in stock photos
 - View a code snippet of the current filter and settings, and copy it to the clipboard
 - Use the output image as the input to simulate filter chaining
 - Share the output image via the MacOS sharing service (email, Airdrop etc.)
@@ -54,9 +46,7 @@ I made CIFilterBox for myself after spending too many hours learning what the fi
 
 Known Issues:
 
-- SwiftUI toolbar items do not auto-switch on system appearance changes
-- SwiftUI toolbar items have inconsistent validation states
-- SwiftUI stores a cache for each filter, which can sometimes result in a large memory footprint. This is most noticeable with CIDepthBlurEffect and CISaliencyMapFilter. Use judiciously.
+- SwiftUI stores a cache for each filter, which can sometimes result in a large memory footprint. This is most noticeable with CIPersonSegmentation and CISaliencyMapFilter. Use judiciously.
 - The grayscale slider in the colour panel always switches back to RGB on edit
 - Two filters have been removed because they crash the app for unknown reasons (CIMorphologyRectangleMaximum and CIMorphologyRectangleMinimum)
 - Some filters are simply too complex for this type of interface, but are still included for information (CICameraCalibrationLensCorrection, CIBarcodeGenerator, CIMeshGenerator, and CICoreMLModelFilter)
