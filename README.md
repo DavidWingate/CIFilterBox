@@ -1,3 +1,5 @@
+**CIFilterBox is currently unavailable.** The old SwiftUI version is far too crashy, so I'm writing a new AppKit version to improve stability and performance. I expect it to be ready in early 2023. Sorry, but it will be back and it will be better!
+
 # CIFilterBox
 
 *Test the filters in real-time.*
