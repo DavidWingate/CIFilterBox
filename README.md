@@ -36,9 +36,23 @@ Once you have the output you need you can copy a code snippet to the clipboard t
 - Share the output image via the MacOS sharing service (email, Airdrop etc.)
 - Save the output image as a PNG file
 
-I made CIFilterBox for myself after spending too many hours learning what the filters do and how to work them. I hope this app can save you from losing that precious time! Known issues are listed below, but if you spot anything that is missing, broken, or just wrong, I would be grateful if you could let me know. I will do my best to fix it.
+What's new in this version:
 
-Known Issues:
+A lot of work has gone on under the bonnet of the latest version, mostly to enable a full undo/redo stack. You can now twiddle the controls with reckless abandon, safe in the knowledge that you can retrace your steps and recreate your marvellous medicine! The full list of changes includes:
+
+- Undo and redo for all filter parameters
+- New 'Randomise Parameters' button for quick exploration of the filters
+- New 'Use Integral Values' button to force pixel alignment for position and rectangle
+- New 'Auto-zoom' mode to stay locked to actual size, input extent, or output image
+- New input controls for font name, attributed string, and input message data
+- New filters from the latest versions of macOS and iOS added automatically
+- Improved image saving to retain image size when 'Crop to Input Extent' is activated
+- Small UI improvements
+- Small bug fixes (if you find any more, please let me know!)
+
+Known issues:
+
+I made CIFilterBox for myself after spending too many hours learning what the filters do and how to work them. I hope this app can save you from losing that precious time! Known issues are listed below, but if you spot anything that is missing, broken, or just wrong, I would be grateful if you could let me know. I will do my best to fix it.
 
 - Core Image stores a cache for each filter, which can sometimes result in a large memory footprint. This is most noticeable with CIPersonSegmentation and CISaliencyMapFilter. Use judiciously.
 - The grayscale slider in the colour panel always switches back to RGB on edit, because the interface only uses RGBA values for simplicity
